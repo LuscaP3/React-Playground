@@ -35,8 +35,8 @@ Projeto criado com **Vite + React** com o objetivo de **aprender e praticar conc
 
 ### 💳 Card
 - Exibição de imagens
-- Movimentar o mouse a perspectiva do **Card** é alterada
-- Movimentação nas laterais causam um brilho
+- Ao movimentar o mouse, a perspectiva do **Card** é alterada
+- Movimentação do mouse nas laterais causam um brilho
 
 
 ---
