@@ -1,0 +1,26 @@
+.slidersContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction : column;
+    justify-content: space-evenly;
+}
+
+.selectorContainer{
+  display: flex;
+  height : 300px;
+  flex-direction: row;
+  background-color: #525252;
+  padding : 5%;
+  
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.colorIndicator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}

@@ -1,0 +1,25 @@
+.navbar{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 1em;
+}
+
+.current-page{
+    background-color: #61dafb;
+    color: white;
+    transform: translateY(-2px);
+}

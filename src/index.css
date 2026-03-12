@@ -1,0 +1,38 @@
+body{
+
+}
+
+h1{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+span{
+    font-weight: bold;
+    color: #505050;
+}
+
+.link{
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover{
+    background-color: #61dafb;
+    color: white;
+    transform: translateY(-2px);
+}

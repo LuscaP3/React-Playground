@@ -1,0 +1,30 @@
+.home {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.home img {
+    width: 120px;
+    margin-bottom: 1rem;
+    animation: spin 10s linear infinite;
+}
+
+.home ul{
+    list-style-type: none;
+}
+
+.home li{
+    margin: 1em;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "Animes": [
+        {
+            "name" : "Code Geass",
+            "path" : "./src/assets/images/codegeass.jpg",
+            "id"   : 1
+        },
+
+        {
+            "name" : "Demon Slayer",
+            "path" : "./src/assets/images/demonslayer.jpg",
+            "id"   : 2
+        },
+
+        {
+            "name" : "Fullmetal Alchemist Brotherhood",
+            "path" : "./src/assets/images/fullmetalalchemist.jpg",
+            "id"   : 3
+        },
+
+        {
+            "name" : "HunterxHunter",
+            "path" : "./src/assets/images/hunterxhunter.jpg",
+            "id"   : 4
+        },
+
+        {
+            "name": "Jojo: Bizarre Adventure",
+            "path": "./src/assets/images/jojo.jpg",
+            "id"   : 5
+
+        },
+
+        {
+            "name" : "One Piece",
+            "path" : "./src/assets/images/onepiece.jpg",
+            "id"   : 6
+        },
+
+        {
+            "name" : "Steins;Gate",
+            "path" : "./src/assets/images/steinsgate.jpg",
+            "id"   : 7
+        },
+
+        {
+            "name" : "Soul Eater",
+            "path" : "./src/assets/images/souleater.jpg",
+            "id"   : 8
+        },
+
+        {
+            "name" : "Dr. Stone",
+            "path" : "./src/assets/images/drstone.jpg",
+            "id"   : 9
+        },
+
+        {
+            "name" : "Re:Zero",
+            "path" : "./src/assets/images/rezero.jpg",
+            "id"   : 10
+        },
+
+        {
+            "name" : "Rokka no Yuusha",
+            "path" : "./src/assets/images/rokkanoyuusha.jpg",
+            "id"   : 11
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+.carousel{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 10px;
+
+    background-color: #f3f3f3;
+}
+
+.track{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+    gap: var(--gap);
+
+    transition: transform 1s ease;
+}
+
+.button{
+    border: none;
+    font-weight: bolder;
+    color: var(--text);
+    font-size: x-large;
+    height: 100%;
+    z-index: 1;
+
+    background-color: #c4c4c4;
+    opacity: 60%;
+    transition: opacity 0.6s ease;
+    transition: transform 0.6s ease;
+
+    position: absolute;
+    
+}
+
+.button-right{
+    right: 0;
+}
+
+.button-left{
+    left: 0;
+}
+
+.button:hover{
+    transform: scale(1.2);
+    opacity: 70%;
+}

@@ -1,0 +1,32 @@
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    width: 100%;
+
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+
+.titleItens{
+    margin: 13px;
+    font-weight: bold;
+}
+
+.textContainer{
+    color: azure;
+
+}
+
+.container{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    padding: 10px;
+    background-color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+}

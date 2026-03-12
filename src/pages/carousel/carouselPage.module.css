@@ -1,0 +1,12 @@
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card-wrapper{
+    width: 200px;
+    height: fit-content;
+}
