@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import './index.css'
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/home/home.jsx'
 import CardPage from './pages/card/CardPage.jsx'
@@ -16,7 +16,7 @@ import Navbar from './components/navbar/navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
 
       <Routes>
@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/switch" element={<SwitchPage />} />
           <Route path="/carousel" element={<CarouselPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
 
