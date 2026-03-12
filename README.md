@@ -4,7 +4,7 @@ Projeto criado com **Vite + React** com o objetivo de **aprender e praticar conc
 
 
 👉 **Acesse o projeto online:**  
-🔗 *(link do GitHub Pages aqui)*
+🔗 *https://luscap3.github.io/React-Playground/*
 
 
 ---
